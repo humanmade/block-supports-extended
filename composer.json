@@ -1,0 +1,7 @@
+{
+    "name": "humanmade/block-supports-extended",
+    "description": "Block supports extension helpers",
+    "type": "wordpress-plugin",
+    "license": "GPL-2.0-or-later",
+    "require": {}
+}
