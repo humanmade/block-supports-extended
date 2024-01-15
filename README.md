@@ -15,15 +15,15 @@ Block_Supports_Extended\register( 'color', 'quoteMarks', [
 	// Properties are translated to what the setting value is applied to,
 	// for example, text will give ".selector { color: value }". This is
 	// the same as the options available for the "color" block.json.
-    'property' => 'text',
+	'property' => 'text',
 	// %s is replaced with a generated class name applied to the block.
-    'selector' => '.%1$s blockquote::before, .%1$s blockquote::after',
+	'selector' => '.%1$s blockquote::before, .%1$s blockquote::after',
 	// Optional list of default blocks to add support for. This can
 	// also be done via a block's block.json "supports" property, or
 	// later using the Block_Supports_Extended\add_support() function.
-    'blocks' => [
-        'core/quote',
-    ],
+	'blocks' => [
+		'core/pullquote',
+	],
 ] );
 ```
 
@@ -40,6 +40,8 @@ This will have the effect of extending the core quote block's `block.json` like 
 ```
 
 A "Quote Marks" option will be added to the default block colour settings. Everything else included CSS generation is then handled for you.
+
+![Extended color UI](./assets/screenshot-1.png)
 
 ## Future Roadmap
 
