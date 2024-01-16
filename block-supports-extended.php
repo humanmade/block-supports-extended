@@ -4,7 +4,7 @@
  * Description:       Plugin for extending built in block supports
  * Requires at least: 6.3
  * Requires PHP:      7.0
- * Version:           0.1.0
+ * Version:           0.2.0
  * Author:            Human Made Limited
  * License:           GPL-2.0-or-later
  * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
