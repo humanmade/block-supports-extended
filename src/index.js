@@ -62,7 +62,7 @@ Object.entries( colorSupports ).forEach( ( [ name, settings ] ) => {
 				const colorGradientSettings = useMultipleOriginColorsAndGradients();
 				const colorValue =
 					customColor?.color ||
-					attributes?.style?.elements[ name ]?.color[ settings.property ] ||
+					( attributes?.style?.elements && attributes?.style?.elements[ name ]?.color[ settings.property ] ) ||
 					'';
 				const defaultValue = settings.default || '';
 
